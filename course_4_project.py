@@ -64,7 +64,7 @@ class WOFComputerPlayer(WOFPlayer):
         list = self.getPossibleLetters(guessed)
         FlipResult = self.smartCoinFlip()
         return 'pass'
-
+    #note:One testcase not passed in this getMove function
 
 
 
